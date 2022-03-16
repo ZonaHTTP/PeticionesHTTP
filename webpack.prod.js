@@ -44,7 +44,7 @@ module.exports={
     plugins: [
          new HtmlWebpack({
              title:'O meu primeiro Webpack',
-             template: './src/index.html'
+             template: 'src/index.html'
          }),
          new MiniCssExtract({
              filename:'[name].[fullhash].css',
