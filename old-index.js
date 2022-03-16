@@ -1,0 +1,1 @@
+const jokeUrl='https://api.chuknorris.io/jokes/random';
