@@ -1,2 +1,3 @@
-import { obtenerChiste } from "./src/js/http-provider.js";
+//Ajuste de Ruta en import
+import { obtenerChiste } from "./js/http-provider.js";
 obtenerChiste().then(console.log);
