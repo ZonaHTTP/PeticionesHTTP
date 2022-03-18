@@ -1,3 +1,5 @@
-//Ajuste de Ruta en import
-import { obtenerChiste } from "./js/http-provider.js";
-obtenerChiste().then(console.log);
+import { init } from "./js/chistes-page";
+// const jokeurl ='https://api.chucknorris.io/jokes/random';
+
+// fetch(jokeurl).then()
+init();

@@ -1,17 +1,21 @@
-const jokeUrl='https://api.chuknorris.io/jokes/random';
-const obtenerChiste = async () => {
-    try{
-    const resp = await fetch (jokeUrl);
-    if(!resp.ok) return alert ('No se puedo realizar la petición');
-    const chiste = await resp.json();
-    }catch (err){
-        throw err;
-    }
-    return chiste;
-} 
+const jokeUrl='https://api.chucknorris.io/jokes/random';
 
-export {
-    obtenerChiste
+const obtenerChiste=async() =>{
+
+    try {
+        const resp=await fetch(jokeUrl);
+
+        if (!resp.ok) throw 'No se pudo realizar la peticion';
+
+        return await resp.json();
+    } catch (error) {
+        throw error;
+    }
+
 }
 
 
+export{
+    obtenerChiste
+}
+//Comprobado
