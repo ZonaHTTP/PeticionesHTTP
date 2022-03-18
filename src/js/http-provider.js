@@ -18,3 +18,4 @@ const obtenerChiste=async() =>{
 export{
     obtenerChiste
 }
+//Comprobado

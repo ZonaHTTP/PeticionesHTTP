@@ -36,7 +36,7 @@ const eventos=()=>{
 
 const dibujarChiste=(chiste)=>{
     const olItem =document.createElement('li');
-    // olItem.innerHTML=`<b>${chiste.id}</b>: ${chiste.value}`;
+    olItem.innerHTML=`<b>${chiste.id}</b>: ${chiste.value}`;
     olList.append(olItem);
     
 }
