@@ -27,6 +27,7 @@ const crearHtml = () => {
     const div = document.createElement('div');
     div.innerHTML = html;
     body.appendChild( div );
+    
 
     // Crear una referencia al TBODY
     // ya que los TRs van dentro del tbody
