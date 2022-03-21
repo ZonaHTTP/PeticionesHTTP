@@ -28,7 +28,7 @@ const crearHtml = () => {
     div.innerHTML = html;
     body.appendChild( div );
     
-
+    //comentario
     // Crear una referencia al TBODY
     // ya que los TRs van dentro del tbody
             // querySelector('tbody');
