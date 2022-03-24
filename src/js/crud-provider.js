@@ -51,11 +51,12 @@ const borrarUsuario = async ( id ) => {
     try{
 
         const resp = await fetch( `${urlCRUD}/${id}`, {
-            method : 'POST'
+            method : 'DELETE'
         }) ;
     
     
         return (resp.ok) ? 'Cliente eliminado' : 'No se pudo eliminar el cliente';
+        // return(resp.status===204) ? 'Cliente eliminado':'Non se  puido eliminar o cliente';
     }
     catch(err){
         throw err;

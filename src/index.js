@@ -12,3 +12,4 @@ CRUD.crearUsuario({
 CRUD.actualizarUsuario(1,{
     name:"Antón Vega"
 });
+CRUD.borrarUsuario(1).then(console.log);
