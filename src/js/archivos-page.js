@@ -52,3 +52,4 @@ export const init = () =>{
     eventos();
 
 }
+//TODO: Repasar que todo estea ben
