@@ -4,7 +4,7 @@ import {init} from './js/archivos-page';
 // obtenerChiste().then(console.log);
 // init();
 // CRUD.getUsuario( 2 ).then (console.log);
-
+init();
 // CRUD.crearUsuario({
 //     name:"Antón",
 //     job:"Programador e deseñador de blogs"
