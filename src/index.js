@@ -3,7 +3,7 @@
 import {init} from './js/archivos-page';
 // obtenerChiste().then(console.log);
 // init();
-// CRUD.getUsuario( 2 ).then (console.log);
+// CRUD.getUsuario( 2 ).then (console.log)fo;
 init();
 // CRUD.crearUsuario({
 //     name:"Antón",
